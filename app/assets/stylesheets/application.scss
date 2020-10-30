@@ -13,8 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+.container {
+    height: auto;
+    background: #f0e68c;
+    width: 90%;
+    margin: 0 auto;
+}
 .width-80 {
   width: 80%;
+}
+.margin-0-auto {
+  margin: 0 auto;
 }
 .left {
   float: left;
@@ -30,4 +47,8 @@
 }
 .text-green {
   color: #28b88d;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+  clear: left;
 }
