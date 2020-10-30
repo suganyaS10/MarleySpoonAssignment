@@ -8,8 +8,5 @@ ContentfulRails.configure do |config|
   config.space = "kk2bw5ojx476"
   config.environment = "master"
   config.contentful_options = {
-    entry_mapping: {
-      'recipe' => 'Recipe'
-    }
   }
 end
