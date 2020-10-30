@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'contentful_model'
 gem 'bootstrap-sass'
 gem 'dotenv-rails'
+gem 'rails_autolink'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
