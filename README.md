@@ -30,5 +30,7 @@ Not required for now.
 Credentials:
 =============
 export SPACE=SPACE
+
 export MANAGEMENT_TOKEN=MANAGEMENT_TOKEN
+
 export ACCESS_TOKEN=ACCESS_TOKEN
