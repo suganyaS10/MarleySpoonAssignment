@@ -1,0 +1,15 @@
+
+<div class="container">
+<h4>Recipes</h4>
+  <% @recipes.each do |recipe| %>
+    <div class="col-md-8">
+        <div class="card bg-dark text-white">
+            <img class="card-img" src="<%= recipe.fields[:photo].url %>" alt="<%= recipe.fields[:title] %>">
+            <div class="card-img-overlay d-flex flex-column">
+                <h3 class="card-text font-weight-bold"><span class="mr-auto"><%= recipe.fields[:title] %></span></h3>
+                <div class="mt-auto"><%= link_to 'View Recipe', recipe_path(id: recipe.id), class: "btn btn-primary" %></div>
+            </div>
+        </div>
+    </div>
+  <% end %>
+</div>

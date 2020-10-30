@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+.width-80 {
+  width: 80%;
+}
+.left {
+  float: left;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.clear {
+  clear: both;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.text-green {
+  color: #28b88d;
+}

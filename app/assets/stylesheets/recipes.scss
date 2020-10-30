@@ -1,0 +1,28 @@
+.card {
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    margin: 20px;
+
+    .img {
+      height: 150px;
+    }
+    .card-text {
+      overflow: auto;
+    }
+}
+.card-img {
+    height: 500px;
+    width: 100%;
+}
+.tag {
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 6px;
+    border-radius: 9px;
+    background: #f6f6f6;
+    color: #716d6a;
+    text-transform: uppercase;
+    font-size: 10px;
+}

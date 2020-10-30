@@ -1,0 +1,21 @@
+
+<div class="container">
+  <img class="card-img" src="<%= @recipe.photo.url %>" alt="<%= @recipe.title %>">
+  <div class="card-img-overlay d-flex flex-column">
+      <h3 class="card-text font-weight-bold"><%= @recipe.title %></h3>
+      <div class="clear">
+        <% @recipe.tags.each do |tag| %>
+          <span class="tag"><%= tag.name %></span>
+        <% end %>
+      </div>
+      <div class="mt-10">
+        <p class="card-text width-80 left"><span class="mr-auto"><%= @recipe.description %></span></p>
+        <vl>
+        <p class="font-weight-bold">Calories: <%= @recipe.calories %></p>
+      </div>
+  </div>
+  <hr class="clear">
+  <p>Shared with you by: <span class='text-green'><%= @recipe.chef&.name %></span></p>
+</div>
+
+
