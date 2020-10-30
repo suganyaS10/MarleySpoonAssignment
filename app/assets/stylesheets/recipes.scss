@@ -16,6 +16,12 @@
     height: 500px;
     width: 100%;
 }
+.zoom-in {
+    transition: transform .2s;
+}
+.zoom-in:hover {
+    transform: scale(1.2);
+}
 .tag {
     display: inline-block;
     border: 1px solid grey;
