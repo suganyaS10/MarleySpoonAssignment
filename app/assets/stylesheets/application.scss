@@ -29,12 +29,16 @@ html, body {
 }
 .width-80 {
   width: 80%;
+  min-width: 80%;
 }
 .margin-0-auto {
   margin: 0 auto;
 }
 .left {
   float: left;
+}
+.right {
+  float: right;
 }
 .font-weight-bold {
   font-weight: bold;
