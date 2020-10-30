@@ -17,6 +17,8 @@ Gems Used:
 
 2. dotenv-rails: To store environment specific credentials in ENV and consume it in the application.
 
+3. rails_autolink: To identify and Linkify hyperlinks in the text.
+
 Architechture:
 ==============
 
